@@ -25,6 +25,16 @@ $(function () {
 h1 {color:red;}
 
 </style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51669413-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -47,11 +57,10 @@ h1 {color:red;}
 		<p><h1>Leave your email below and we will notify you <br/> once our doors Open.</h1></p>
 		
 		<form action="http://bookswalaa.in/fashioncoffeesubscription.php" method="post">
-			<input type="text" name="email" id="email" style="background-color: #72A4D2;" value="Subscribe to get Flat Rs50 off">
+			<input type="text" style="background-color: #72A4D2;" name="email" id="email"  value="Subscribe to get Flat Rs50 off">
 			<input type="submit" value="GO!">
-			<div id="defaultCountdown" style="margin-top: 153px;"></div>
 		</form>
-		
+		<div id="defaultCountdown" style="margin-top: 153px;"></div>
 		<p class="copyright">Designed by <a href="http://npsystem.in" target="_blank">npsystem</a></p>
 	</div>
 	<!--/CONTAINER-->
